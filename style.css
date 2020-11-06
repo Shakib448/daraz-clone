@@ -107,9 +107,16 @@ li.daraz__round {
   padding: 0px !important;
   width: 100% !important;
 }
+.daraz__categoryList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .categoryBtn {
   height: 50px;
+  width: 200px;
+  margin: 10px;
   border: 1px solid #000;
   border-radius: 25px;
   cursor: pointer;
@@ -120,5 +127,8 @@ li.daraz__round {
     right: 8%;
     top: 10;
     font-size: 20px;
+  }
+  .categoryBtn {
+    width: 100px;
   }
 }
