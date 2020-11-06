@@ -160,6 +160,14 @@ li.daraz__round {
   border: 1px solid #f57224 !important;
 }
 
+.card {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 992px) {
   .toast__cross {
     right: 8%;
