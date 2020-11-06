@@ -8,9 +8,12 @@ header > .container {
   justify-content: center;
 }
 
+.hide__add__toast {
+  position: relative;
+}
+
 .add__toast__img {
   width: 100%;
-  position: relative;
 }
 
 .container > #hide__add__toast {
@@ -19,9 +22,17 @@ header > .container {
 
 .toast__cross {
   position: absolute;
-  top: 10px;
-  right: 150px;
+  top: 10;
+  right: 12%;
   font-size: 30px;
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .toast__cross {
+    right: 8%;
+    top: 10;
+    font-size: 20px;
+  }
 }
