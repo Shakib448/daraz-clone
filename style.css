@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+header {
+  background-color: #ff00cc;
+}
+
 header > .container {
   display: flex;
   justify-content: center;
@@ -29,7 +33,7 @@ header > .container {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .toast__cross {
     right: 8%;
     top: 10;
