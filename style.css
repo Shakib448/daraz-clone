@@ -33,6 +33,11 @@ header > .container {
   cursor: pointer;
 }
 
+.daraz__subNav {
+  background: #ececec;
+  font-size: 15px;
+}
+
 @media (max-width: 992px) {
   .toast__cross {
     right: 8%;
