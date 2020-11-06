@@ -77,6 +77,20 @@ input.form-control.mr-sm-2.daraz__searchForm:focus {
   color: black;
 }
 
+span.carousel-control-prev-icon {
+  display: none;
+}
+
+span.carousel-control-next-icon {
+  display: none;
+}
+
+li.daraz__round {
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+}
+
 @media (max-width: 992px) {
   .toast__cross {
     right: 8%;
