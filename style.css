@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header > .container {
+  display: flex;
+  justify-content: center;
+}
+
+.add__toast__img {
+  width: 100%;
+  position: relative;
+}
+
+.container > #hide__add__toast {
+  width: 100%;
+}
+
+.toast__cross {
+  position: absolute;
+  top: 10px;
+  right: 150px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
