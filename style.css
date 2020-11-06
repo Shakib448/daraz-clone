@@ -150,6 +150,16 @@ li.daraz__round {
   color: #ce60ff;
 }
 
+.daraz__shopeMore {
+  color: #f57224 !important;
+  border: 1px solid #f57224 !important;
+}
+
+.daraz__shopeMore:hover {
+  background: transparent !important;
+  border: 1px solid #f57224 !important;
+}
+
 @media (max-width: 992px) {
   .toast__cross {
     right: 8%;
