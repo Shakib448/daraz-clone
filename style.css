@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: #f5f5f5;
+}
+
 header {
   background-color: #ff00cc;
 }
@@ -131,6 +135,7 @@ li.daraz__round {
   padding: 10px;
   font-weight: bold;
   transition: 0.2s;
+  background-color: white;
 }
 
 .darazCategoryIcon {
