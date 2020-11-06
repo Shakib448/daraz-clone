@@ -69,10 +69,10 @@
 
       <!-- Daraz Navbar -->
       <section class="daraz__navbar">
-        <div class="container">
+        <div class="container-fluid daraz__navbarSticky">
           <nav class="navbar navbar-expand-lg" style="background-color: #fff">
-            <a class="navbar-brand" href="#">
-              <img src="https://via.placeholder.com/100x50.png" alt="logo" />
+            <a class="navbar-brand ml-5" href="#">
+              <img src="https://via.placeholder.com/150x50.png" alt="logo" />
             </a>
             <button
               class="navbar-toggler"
@@ -190,12 +190,57 @@
           </a>
         </div>
       </section>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
+      <h1>lsdkjfa</h1>
     </main>
 
     <script>
       function hide() {
         document.getElementById("hide__add__toast").style.display = "none";
         document.querySelector(".toast__cross").style.display = "none";
+      }
+
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      const navbar = document.querySelector(".daraz__navbar");
+      const sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
       }
     </script>
   </body>

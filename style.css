@@ -71,6 +71,9 @@ input.form-control.mr-sm-2.daraz__searchForm:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+.daraz__navbar {
+  z-index: 1;
+}
 
 .daraz__cart {
   font-size: 28px;
@@ -89,6 +92,18 @@ li.daraz__round {
   height: 15px !important;
   width: 15px !important;
   border-radius: 50%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 10px 10px 10px lightgrey;
+}
+
+.daraz__navbarSticky {
+  padding: 0px !important;
+  width: 100% !important;
 }
 
 @media (max-width: 992px) {
