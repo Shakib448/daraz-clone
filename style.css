@@ -127,6 +127,7 @@ li.daraz__round {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
   padding: 10px;
   font-weight: bold;
   transition: 0.2s;
@@ -134,7 +135,6 @@ li.daraz__round {
 
 .darazCategoryIcon {
   display: none;
-  transition: 0.2s;
 }
 .categoryBtn:hover .darazCategoryIcon {
   display: block;
@@ -152,6 +152,7 @@ li.daraz__round {
     font-size: 20px;
   }
   .categoryBtn {
-    width: 100px;
+    max-width: 100%;
+    height: auto;
   }
 }
