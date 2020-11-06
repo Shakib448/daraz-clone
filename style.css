@@ -36,6 +36,16 @@ header > .container {
 .daraz__subNav {
   background: #ececec;
   font-size: 15px;
+  transition: 0.5s;
+}
+
+a.nav-link.text-uppercase {
+  font-size: 14px;
+  color: #97a5bf;
+}
+a.nav-link.text-uppercase:hover {
+  text-decoration: underline;
+  color: #f57224;
 }
 
 @media (max-width: 992px) {
