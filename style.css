@@ -167,7 +167,7 @@ li.daraz__round {
   transition: 0.5s;
 }
 .card:hover {
-  transform: scale(1.04);
+  transform: scale(1.1);
   box-shadow: 10px 10px 100px lightgrey;
 }
 
@@ -195,6 +195,68 @@ li.daraz__round {
   background-color: #000;
 }
 
+.daraz__categoryProduct {
+  height: 150px;
+  width: 130px;
+  border: 1px solid black;
+}
+
+.card-categories-ul {
+  width: 100%;
+  background-color: #fff;
+  min-height: 297px;
+}
+
+.card-categories-li {
+  width: 12.5%;
+  height: 148.5px;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+}
+.align-left {
+  float: left;
+}
+
+.card-categories-li-content {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 16px;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.card-categories-image-container {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+}
+
+.card-categories-image-container .image {
+  width: 100%;
+  height: 100%;
+}
+
+.hp-mod-card-content.J_CategoriesItems {
+  margin: 0 100px;
+}
+
+a.card-categories-li-content {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+a.card-categories-li-content:hover {
+  text-decoration: none;
+  color: black;
+}
+.card-categories-name {
+  text-align: center;
+  margin-top: 10px;
+}
 @media (max-width: 992px) {
   .toast__cross {
     right: 8%;
