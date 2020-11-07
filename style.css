@@ -163,9 +163,36 @@ li.daraz__round {
 .card {
   cursor: pointer;
   transition: 0.5s;
+  margin: 10px 0;
+  transition: 0.5s;
 }
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
+  box-shadow: 10px 10px 100px lightgrey;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.daraz__flashSaleList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.daraz__flash__sale {
+  width: 220px;
+  height: 220px;
+  padding: 1.25rem;
+  /* margin: 70px 0; */
+  cursor: pointer;
+}
+.daraz__flash__sale:hover {
+  background-color: #000;
 }
 
 @media (max-width: 992px) {
